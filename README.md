@@ -8,18 +8,20 @@ Building a model that can accurately identify the creditworthiness of borrowers 
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 
 ## ML Model Design Process
-The ML model design process began with ingesting the labels into a model to split the data into training and testing sets. To determine the loan lending creditworthiness of an individual I used a logistic regression. To futher improve the balanced score observed from the logistic model, I resampled the training data using a random oversampling model classifier. 
+The ML model design process (Fig 1) began with ingesting the labels into a model to split the data into training and testing sets. To determine the loan lending creditworthiness of an individual I used a logistic regression. To futher improve the balanced score observed from the logistic model, I resampled the training data using a random oversampling model classifier. 
 
-![image](https://github.com/Jayplect/credit-risk-classification/assets/107348074/a6a58c18-3bd4-4536-858d-1f02f5c70773)
+Fig 1: Model design process used for this study
+
+![image](https://github.com/Jayplect/credit-risk-classification/assets/107348074/abdb6ff2-6370-4b1b-b2ce-3664fc54be89)
 
 ## Results
 
 #### Description of Model Accuracy, Precision, and Recall scores.
 
-- From the confusion matrix (Fig. 1) the logistic model predicted 18,663 as healthy loans correctly and 102 as healthy loans incorrectly from a total loan status of 18,765 which were healthy (i.e., low-risk).
+- From the confusion matrix (Fig. 2) the logistic model predicted 18,663 as healthy loans correctly and 102 as healthy loans incorrectly from a total loan status of 18,765 which were healthy (i.e., low-risk).
 - The model predicted 563 as high-risk loans correctly and 56 high-risk loans incorrectly from a total loan status of 619 which were high-risk.
 
-> Fig 1: Confusion Matrix showing the Imbalance proportions of the actual and predicted classes
+> Fig 2: Confusion Matrix showing the Imbalance proportions of the actual and predicted classes
 
 ![image](https://github.com/Jayplect/credit-risk-classification/assets/107348074/57e56a59-e561-4510-8d5d-60a5ad3939f6)
 
@@ -27,10 +29,10 @@ The ML model design process began with ingesting the labels into a model to spli
 
 #### Description of Model Accuracy, Precision, and Recall scores after Resampling:
 
-- From the confusion matrix (Fig. 2) the logistic model predicted 18,663 as healthy correctly and 102 as healthy incorrectly from a total loan status of 18,765 which were healthy (i.e., low-risk).
+- From the confusion matrix (Fig. 3) the logistic model predicted 18,663 as healthy correctly and 102 as healthy incorrectly from a total loan status of 18,765 which were healthy (i.e., low-risk).
 - The model predicted 563 as high-risk loans correctly and 56 high-risk loans incorrectly from a total loan status of 619 which were high-risk.
 
-> Fig 2: Confusion Matrix showing the Imbalance proportions of the actual and predicted classes after resampling
+> Fig 3: Confusion Matrix showing the Imbalance proportions of the actual and predicted classes after resampling
 
 ![image](https://github.com/Jayplect/credit-risk-classification/assets/107348074/b44648fc-4bfa-40fa-b112-262111429b49)
 
