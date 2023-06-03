@@ -43,7 +43,7 @@ Fig 1: Model design process used for this study
 - Oversampling improves the balanced score from 95% to 99%, as observed randomly  oversampling and fitting the training datasets using the logistic regression model. The imporvement in the scoring metrics is because the oversampling algorithm allows for selection of random samples from the minority class (in this case the High-Risk Loans) with replacement and supplementing the training data with multiple copies of this instance. The issue with such kind of sampling is that it may overrepresent a single sample in the training set. However this might not be the case for our dataset because of the high disparity between high-risk and healthy loan classes as observed in the confusion model. 
 
 ## Summary
-- Overall, the accuracy seems to be good enought to start exploring this kind of algorithms in a bank, however, I would prefer to start running a pilot with new data to assess model's reliability.
+- Overall, the accuracy seems to be good enough to start exploring this kind of algorithms in a bank, however, I would prefer to start running a pilot with new data to assess model's reliability.
 - It's important to note that the effectiveness of the creditworthiness model heavily depends on the quality and relevance of the data collected. Therefore, it's crucial to have a comprehensive and reliable dataset to achieve accurate predictions.
 - As part of next steps, it will be imperative to identify the most relevant features that are likely to impact the creditworthiness of borrowers and then run a pilot with new data sets of data to assess model's reliability.
 
