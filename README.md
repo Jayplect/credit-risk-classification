@@ -14,7 +14,7 @@ The ML model design process began with ingesting the labels into a model to spli
 
 ## Results
 
-* Description of Model Accuracy, Precision, and Recall scores.
+#### Description of Model Accuracy, Precision, and Recall scores.
 
 - From the confusion matrix (Fig. 1) the logistic model predicted 18,663 as healthy loans correctly and 102 as healthy loans incorrectly from a total loan status of 18,765 which were healthy (i.e., low-risk).
 - The model predicted 563 as high-risk loans correctly and 56 high-risk loans incorrectly from a total loan status of 619 which were high-risk.
@@ -25,7 +25,7 @@ The ML model design process began with ingesting the labels into a model to spli
 
 - The classification report which takes into account the model's accuracy revealed that the healthy loans had a precision score of 100%, and a recall of 99%. For the non-healthy loans, the precision and recall were 85% and 99%, respectively. The overall performance of the model was calculated to be 99%.
 
-*  Description of Model Accuracy, Precision, and Recall scores after Resampling:
+#### Description of Model Accuracy, Precision, and Recall scores after Resampling:
 
 - From the confusion matrix (Fig. 2) the logistic model predicted 18,663 as healthy correctly and 102 as healthy incorrectly from a total loan status of 18,765 which were healthy (i.e., low-risk).
 - The model predicted 563 as high-risk loans correctly and 56 high-risk loans incorrectly from a total loan status of 619 which were high-risk.
