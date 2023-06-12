@@ -8,7 +8,7 @@ Building a model that can accurately identify the creditworthiness of borrowers 
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 
 ## ML Model Design Process
-The ML model design process (Fig 1) began with ingesting the labels into a model to split the data into training and testing sets. To determine the loan lending creditworthiness of an individual I used a logistic regression. To futher improve the balanced score observed from the logistic model, I resampled the training data using a random oversampling model classifier. 
+The ML model design process (Fig 1) began with ingesting the labels into a model to split the data into training and testing sets. To determine the loan lending creditworthiness of an individual I used a logistic regression. To further improve the balanced score observed from the logistic model, I resampled the training data using a random oversampling model classifier. 
 
 Fig 1: Model design process used for this study
 
